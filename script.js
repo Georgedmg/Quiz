@@ -190,7 +190,7 @@ function nextQuestion() {
   }
 }
 
-// Function to handle wrong answers
+// Function to handle any wrong answers
 function wrongAnswer() {
   quizQuestion.classList.remove("blink");
   document.getElementById("nextQuestion").disabled = false;
